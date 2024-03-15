@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:news/controllers/MenuController.dart';
+import 'package:news/controllers/MenuController.dart' as myMenuController;
 
 import '../../../constants.dart';
 
 class WebMenu extends StatelessWidget {
-  final MenuController _controller = Get.put(MenuController());
+  final myMenuController.MenuController _controller = Get.put(myMenuController.MenuController());
 
   @override
   Widget build(BuildContext context) {
